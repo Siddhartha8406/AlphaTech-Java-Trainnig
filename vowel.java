@@ -1,11 +1,7 @@
 class vowel {
     public static void main(String args[]){
         char ch='a';
-        if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
-            System.out.println(ch+" is a vowel");
-        }
-        else{
-            System.out.println(ch+" is not a vowel");
-        }
+        String a = (ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')? (ch+" is a vowel"):(ch+" is not a vowel");
+        System.out.println(a);
     }
 }
