@@ -1,3 +1,7 @@
+/*
+ * Write a program to check if two numbers are equal or not.
+ */
+
 class CheckEqual {
     public static void main(String[] args) {
         int a = 10;
